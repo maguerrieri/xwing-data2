@@ -16,11 +16,12 @@
       "threat": 2,
       "pilots": [
         {
-          "id": "blacksquadronace",
-          "upgrades": {
-            "talent": ["outmaneuver"],
-            "modification": ["afterburners", "shieldupgrade"]
-          }
+          "id": "academypilot",
+          "shipfilename": "tie-ln-fighter"
+        },
+        {
+          "id": "academypilot",
+          "shipfilename": "tie-ln-fighter"
         }
       ]
     },
@@ -51,7 +52,8 @@
           "id": "idenversio",
           "upgrades": {
             "talent": ["lonewolf"],
-            "torpedo": ["protontorpedoes"]
+            "torpedo": ["protontorpedoes"],
+            "modification": ["targetingcomputer"]
           }
         }
       ]
@@ -64,6 +66,27 @@
           "upgrades": {
             "talent": ["predator"],
             "modification": ["hullupgrade", "shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "obsidiansquadronpilot",
+          "shipfilename": "tie-ln-fighter",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "modification": ["shieldupgrade"]
+          }
+        },
+        {
+          "id": "obsidiansquadronpilot",
+          "shipfilename": "tie-ln-fighter",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "modification": ["shieldupgrade"]
           }
         }
       ]
@@ -101,12 +124,45 @@
       ]
     },
     {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "blacksquadronace",
+          "shipfilename": "tie-ln-fighter",
+          "upgrades": {
+            "talent": ["juke"],
+            "modification": ["stealthdevice"]
+          }
+        },
+        {
+          "id": "blacksquadronace",
+          "shipfilename": "tie-ln-fighter",
+          "upgrades": {
+            "talent": ["juke"],
+            "modification": ["stealthdevice"]
+          }
+        }
+      ]
+    },
+    {
       "threat": 2,
       "pilots": [
         {
           "id": "blacksquadronace",
           "upgrades": {
             "talent": ["crackshot"],
+            "modification": ["afterburners", "shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "blacksquadronace",
+          "upgrades": {
+            "talent": ["outmaneuver"],
             "modification": ["afterburners", "shieldupgrade"]
           }
         }
@@ -157,55 +213,6 @@
             "talent": ["marksmanship"],
             "modification": ["afterburners"]
           }
-        }
-      ]
-    },
-    {
-      "threat": 3,
-      "pilots": [
-        {
-          "id": "blacksquadronace",
-          "upgrades": {
-            "talent": ["juke"],
-            "modification": ["stealthdevice"]
-          }
-        },
-        {
-          "id": "blacksquadronace",
-          "upgrades": {
-            "talent": ["juke"],
-            "modification": ["stealthdevice"]
-          }
-        }
-      ]
-    },
-    {
-      "threat": 3,
-      "pilots": [
-        {
-          "id": "obsidiansquadronpilot",
-          "upgrades": {
-            "talent": ["outmaneuver"],
-            "modification": ["shieldupgrade"]
-          }
-        },
-        {
-          "id": "obsidiansquadronpilot",
-          "upgrades": {
-            "talent": ["outmaneuver"],
-            "modification": ["shieldupgrade"]
-          }
-        }
-      ]
-    },
-    {
-      "threat": 2,
-      "pilots": [
-        {
-          "id": "academypilot"
-        },
-        {
-          "id": "academypilot"
         }
       ]
     },
@@ -446,6 +453,18 @@
       ]
     },
     {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "duchess",
+          "upgrades": {
+            "talent": ["trickshot"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
       "threat": 3,
       "pilots": [
         {
@@ -462,10 +481,11 @@
       "threat": 2,
       "pilots": [
         {
-          "id": "duchess",
+          "id": "blacksquadronscout",
           "upgrades": {
-            "talent": ["trickshot"],
-            "modification": ["shieldupgrade"]
+            "gunner": ["skilledbombardier"],
+            "device": ["proximitymines"],
+            "modification": ["hullupgrade"]
           }
         }
       ]
@@ -486,11 +506,9 @@
       "threat": 2,
       "pilots": [
         {
-          "id": "blacksquadronscout",
+          "id": "countdown",
           "upgrades": {
-            "gunner": ["skilledbombardier"],
-            "device": ["proximitymines"],
-            "modification": ["hullupgrade"]
+            "modification": ["shieldupgrade"]
           }
         }
       ]
@@ -513,9 +531,9 @@
       "threat": 2,
       "pilots": [
         {
-          "id": "countdown",
+          "id": "puresabacc",
           "upgrades": {
-            "modification": ["shieldupgrade"]
+            "modification": ["stealthdevice"]
           }
         }
       ]
@@ -533,18 +551,26 @@
       ]
     },
     {
-      "threat": 2,
+      "threat": 3,
       "pilots": [
         {
-          "id": "puresabacc",
+          "id": "planetarysentinel",
+          "shipfilename": "tie-sk-striker",
           "upgrades": {
-            "modification": ["stealthdevice"]
+            "device": ["connernets"]
+          }
+        },
+        {
+          "id": "planetarysentinel",
+          "shipfilename": "tie-sk-striker",
+          "upgrades": {
+            "device": ["connernets"]
           }
         }
       ]
     },
     {
-      "threat": 3,
+      "threat": 2,
       "pilots": [
         {
           "id": "planetarysentinel",
@@ -552,23 +578,6 @@
             "gunner": ["skilledbombardier"],
             "device": ["protonbombs"],
             "modification": ["hullupgrade"]
-          }
-        }
-      ]
-    },
-    {
-      "threat": 2,
-      "pilots": [
-        {
-          "id": "planetarysentinel",
-          "upgrades": {
-            "device": ["connernets"]
-          }
-        },
-        {
-          "id": "planetarysentinel",
-          "upgrades": {
-            "device": ["connernets"]
           }
         }
       ]
@@ -688,6 +697,7 @@
       "pilots": [
         {
           "id": "scimitarsquadronpilot",
+          "shipfilename": "tie-sa-bomber",
           "upgrades": {
             "missile": ["ionmissiles"],
             "device": ["protonbombs"]
@@ -695,6 +705,7 @@
         },
         {
           "id": "scimitarsquadronpilot",
+          "shipfilename": "tie-sa-bomber",
           "upgrades": {
             "missile": ["ionmissiles"],
             "device": ["protonbombs"]
@@ -741,6 +752,19 @@
       ]
     },
     {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "grandinquisitor",
+          "upgrades": {
+            "force-power": ["hate"],
+            "missile": ["protonrockets"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
       "threat": 2,
       "pilots": [
         {
@@ -757,9 +781,34 @@
       "threat": 2,
       "pilots": [
         {
+          "id": "inquisitor",
+          "upgrades": {
+            "force-power": ["heightenedperception"],
+            "missile": ["protonrockets"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
           "id": "seventhsister",
           "upgrades": {
             "missile": ["homingmissiles"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "seventhsister",
+          "upgrades": {
+            "force-power": ["predictiveshot"],
+            "missile": ["protonrockets"],
+            "modification": ["afterburners","hullupgrade"]
           }
         }
       ]
@@ -773,6 +822,18 @@
             "missile": ["protonrockets"],
             "talent": ["crackshot"],
             "modification": ["stealthdevice"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "baronoftheempire",
+          "upgrades": {
+            "talent": ["elusive","outmaneuver"],
+            "modification": ["afterburners"]
           }
         }
       ]
@@ -794,12 +855,14 @@
       "pilots": [
         {
           "id": "alphasquadronpilot",
+          "shipfilename": "tie-interceptor",
           "upgrades": {
             "modification": ["ablativeplating"]
           }
         },
         {
           "id": "alphasquadronpilot",
+          "shipfilename": "tie-interceptor",
           "upgrades": {
             "modification": ["ablativeplating"]
           }
@@ -1020,6 +1083,91 @@
           "upgrades": {
             "talent": ["swarmtactics"],
             "crew": ["isbslicer"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 5,
+      "pilots": [
+        {
+          "id": "rearadmiralchiraneau",
+          "upgrades": {
+            "torpedo": ["protontorpedoes"],
+            "crew": ["gnkgonkdroid"],
+            "gunner": ["veteranturretgunner"],
+            "device": ["proximitymines"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "patrolleader",
+          "upgrades": {
+            "crew": ["000", "darthvader"],
+            "gunner": ["bt1"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 5,
+      "pilots": [
+        {
+          "id": "patrolleader",
+          "upgrades": {
+            "talent": ["lonewolf"],
+            "crew": ["grandinquisitor", "seventhsister"],
+            "gunner": ["fifthbrother"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "captainoicunn",
+          "upgrades": {
+            "crew": ["agentkallus"],
+            "modification": ["tacticalscrambler"],
+            "title": ["dauntless"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 5,
+      "pilots": [
+        {
+          "id": "outerrimgarrison",
+          "upgrades": {
+            "command": ["strategiccommander"],
+            "hardpoint": ["targetingbattery"],
+            "turret": ["dorsalturret"],
+            "team": ["commsteam","sensorexperts"],
+            "cargo": ["boostedscanners","optimizedpowercore"],
+            "title": ["requiem"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 9,
+      "pilots": [
+        {
+          "id": "outerrimpatrol",
+          "upgrades": {
+            "command": ["captainneeda"],
+            "hardpoint": ["ordnancetubes","turbolaserbattery"],
+            "torpedo": ["advprotontorpedoes"],
+            "missile": ["concussionmissiles"],
+            "team": ["ordnanceteam","bombardmentspecialists"],
+            "cargo": ["boostedscanners"],
+            "title": ["impetuous"]
           }
         }
       ]

@@ -192,6 +192,174 @@
           }
         }
       ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "dbs404",
+          "upgrades": {
+            "configuration": ["landingstruts"],
+            "talent": ["predator"],
+            "torpedo": ["plasmatorpedoes"],
+            "modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "baktoidprototype",
+          "upgrades": {
+            "sensor": ["passivesensors"],
+            "missile": ["barragerockets"],
+            "modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "technounionbomber",
+          "upgrades": {
+            "torpedo": ["protontorpedoes"],
+            "device": ["electroprotonbomb"],
+            "modification": ["delayedfuses"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "dbs32c",
+          "upgrades": {
+            "configuration": ["landingstruts"],
+            "tactical-relay": ["ta175"],
+            "modification": ["stealthdevice"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "bombardmentdrone",
+          "upgrades": {
+            "sensor": ["trajectorysimulator"],
+            "device": ["bombletgenerator"],
+            "modification": ["delayedfuses"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "separatistbomber",
+          "upgrades": {
+            "sensor": ["passivesensors"],
+            "missile": ["diamondboronmissiles"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "sunfac",
+          "upgrades": {
+            "talent": ["ensnare","predator"],
+            "modification": ["afterburners","shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "chertek",
+          "upgrades": {
+            "talent": ["graviticdeflection","juke"],
+            "modification": ["targetingcomputer"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "petranakiarenaace",
+          "upgrades": {
+            "talent": ["ensnare","snapshot"],
+            "modification": ["stealthdevice"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "berwerkret",
+          "upgrades": {
+            "talent": ["ensnare","snapshot"],
+            "modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "gorgol",
+          "upgrades": {
+            "talent": ["graviticdeflection"],
+            "modification": ["shieldupgrade","stealthdevice"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "stalgasinhiveguard",
+          "upgrades": {
+            "talent": ["ensnare","graviticdeflection"],
+            "modification": ["targetingcomputer"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 6,
+      "pilots": [
+        {
+          "id": "separatistprivateers",
+          "upgrades": {
+            "command": ["stalwartcaptain"],
+            "hardpoint": ["turbolaserbattery"],
+            "cannon": ["heavylasercannon"],
+            "turret": ["dorsalturret"],
+            "missile": ["clustermissiles"],
+            "team": ["bombardmentspecialists"],
+            "cargo": ["boostedscanners","tibannareserves"],
+            "configuration": ["corsairrefit"]
+          }
+        }
+      ]
     }
   ]
 }

@@ -160,6 +160,19 @@
       ]
     },
     {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "goldsquadronveteran",
+          "upgrades": {
+            "talent": ["experthandling"],
+            "device": ["protonbomb"],
+            "astromech": ["r3astromech"]
+          }
+        }
+      ]
+    },
+    {
       "threat": 3,
       "pilots": [
         {
@@ -206,7 +219,7 @@
           "upgrades": {
             "sensor": ["trajectorysimulator"],
             "missile": ["ionmissiles"],
-            "device": ["protonbombs", "connernets"],
+            "device": ["connernets", "protonbombs"],
             "modification": ["advancedslam"],
             "crew": ["perceptivecopilot"]
           }
@@ -244,7 +257,7 @@
           "id": "bladesquadronveteran",
           "upgrades": {
             "talent": ["elusive"],
-            "cannon": ["tractorbeam"]
+            "cannon": ["jammingbeam"]
           }
         }
       ]
@@ -519,14 +532,30 @@
       "pilots": [
         {
           "id": "phoenixsquadronpilot",
+          "shipfilename": "rz-1-a-wing",
           "upgrades": {
             "missile": ["protonrockets"]
           }
         },
         {
           "id": "phoenixsquadronpilot",
+          "shipfilename": "rz-1-a-wing",
           "upgrades": {
             "missile": ["protonrockets"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "fennrau-sheathipedeclassshuttle",
+          "upgrades": {
+            "talent": ["elusive"],
+            "crew": ["kananjarrus"],
+            "astromech": ["r2astromech"],
+            "title": ["phantom"]
           }
         }
       ]
@@ -556,6 +585,48 @@
             "astromech": ["chopper"],
             "title": ["phantom"],
             "modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "ezrabridger-sheathipedeclassshuttle",
+          "upgrades": {
+            "force-power": ["hate"],
+            "crew": ["maul"],
+            "astromech": ["r5astromech"],
+            "title": ["phantom"],
+            "modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "zeborrelios-sheathipedeclassshuttle",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "crew": ["herasyndulla"],
+            "title": ["phantom"],
+            "modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "ap5",
+          "upgrades": {
+            "astromech": ["chopper"],
+            "title": ["phantom"],
+            "modification": ["afterburners","shieldupgrade"]
           }
         }
       ]
@@ -679,7 +750,7 @@
           "id": "chewbacca",
           "upgrades": {
             "talent": ["predator"],
-            "crew": ["leiaorgana", "c3po-crew", "r2d2-crew"],
+            "crew": ["leiaorgana", "c3po", "r2d2-crew"],
             "gunner": ["hansolo", "lukeskywalker"],
             "modification": ["engineupgrade"],
             "title": ["millenniumfalcon"]
@@ -941,8 +1012,9 @@
       "pilots": [
         {
           "id": "kananjarrus",
+          "shipfilename": "vcx-100-light-freighter",
           "upgrades": {
-            "crew": ["chopper-crew", "herasyndulla"],
+            "crew": ["herasyndulla", "chopper-crew"],
             "gunner": ["ezrabridger"],
             "turret": ["ioncannonturret"],
             "title": ["ghost"]
@@ -950,6 +1022,7 @@
         },
         {
           "id": "zeborrelios",
+          "shipfilename": "attack-shuttle",
           "upgrades": {
             "title": ["phantom"]
           }
@@ -961,6 +1034,7 @@
       "pilots": [
         {
           "id": "herasyndulla-vcx100lightfreighter",
+          "shipfilename": "vcx-100-light-freighter",
           "upgrades": {
             "talent": ["elusive"],
             "crew": ["kananjarrus"],
@@ -970,6 +1044,7 @@
         },
         {
           "id": "ezrabridger",
+          "shipfilename": "attack-shuttle",
           "upgrades": {
             "force-power": ["supernaturalreflexes"],
             "turret": ["dorsalturret"],
@@ -983,6 +1058,7 @@
       "pilots": [
         {
           "id": "chopper",
+          "shipfilename": "vcx-100-light-freighter",
           "upgrades": {
             "crew": ["zeborrelios"],
             "turret": ["ioncannonturret"],
@@ -991,6 +1067,7 @@
         },
         {
           "id": "ap5",
+          "shipfilename": "sheathipede-class-shuttle",
           "upgrades": {
             "astromech": ["r4astromech"],
             "title": ["phantom"]
@@ -1003,6 +1080,7 @@
       "pilots": [
         {
           "id": "lothalrebel",
+          "shipfilename": "vcx-100-light-freighter",
           "upgrades": {
             "crew": ["landocalrissian"],
             "turret": ["dorsalturret"],
@@ -1011,9 +1089,199 @@
         },
         {
           "id": "zeborrelios-sheathipedeclassshuttle",
+          "shipfilename": "sheathipede-class-shuttle",
           "upgrades": {
             "astromech": ["r5astromech"],
             "title": ["phantom"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "herasyndulla-vcx100lightfreighter",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "sensor": ["collisiondetector"],
+            "turret": ["dorsalturret"],
+            "crew": ["kananjarrus", "chopper-crew"],
+            "title": ["ghost"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "chopper",
+          "upgrades": {
+            "crew": ["herasyndulla", "zeborrelios"],
+            "title": ["ghost"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "kananjarrus",
+          "upgrades": {
+            "force-power": ["sense"],
+            "turret": ["dorsalturret"],
+            "modification": ["hullupgrade","tacticalscrambler"],
+            "title": ["ghost"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "lothalrebel",
+          "upgrades": {
+            "turret": ["dorsalturret"],
+            "gunner": ["agilegunner"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 5,
+      "pilots": [
+        {
+          "id": "hansolo-modifiedyt1300lightfreighter",
+          "upgrades": {
+            "crew": ["c3po", "leiaorgana", "chewbacca"],
+            "illicit": ["riggedcargochute"],
+            "title": ["millenniumfalcon"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 6,
+      "pilots": [
+        {
+          "id": "chewbacca",
+          "upgrades": {
+            "crew": ["leiaorgana", "c3po", "r2d2-crew"],
+            "gunner": ["hansolo", "lukeskywalker"],
+            "title": ["millenniumfalcon"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 5,
+      "pilots": [
+        {
+          "id": "landocalrissian-modifiedyt1300lightfreighter",
+          "upgrades": {
+            "talent": ["swarmtactics"],
+            "missile": ["homingmissiles"],
+            "crew": ["niennunb"],
+            "astromech": ["r3astromech"],
+            "modification": ["engineupgrade", "hullupgrade"],
+            "title": ["millenniumfalcon"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "outerrimsmuggler",
+          "upgrades": {
+            "crew": ["informant", "landocalrissian"],
+            "illicit": ["riggedcargochute"],
+            "modification": ["engineupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "bladesquadronveteran",
+          "upgrades": {
+            "talent": ["predator"],
+            "cannon": ["ioncannon", "jammingbeam"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "bluesquadronpilot",
+          "upgrades": {
+            "sensor": ["firecontrolsystem"],
+            "torpedo": ["advprotontorpedoes"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "braylenstramm",
+          "upgrades": {
+            "talent": ["squadleader"],
+            "cannon": ["heavylasercannon", "jammingbeam"],
+            "modification": ["electronicbaffle"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "tennumb",
+          "upgrades": {
+            "talent": ["elusive"],
+            "modification": ["electronicbaffle"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 9,
+      "pilots": [
+        {
+          "id": "alderaanianguard",
+          "upgrades": {
+            "command": ["jandodonna"],
+            "hardpoint": ["ioncannonbattery","turbolaserbattery"],
+            "crew": ["torynfarr"],
+            "team": ["commsteam","sensorexperts"],
+            "cargo":["boostedscanners"],
+            "title":["dodonnaspride"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "echobaseevacuees",
+          "upgrades": {
+            "command": ["carlistrieekan"],
+            "hardpoint": ["pointdefensebattery"],
+            "crew": ["novicetechnician"],
+            "team": ["commsteam"],
+            "cargo":["adaptiveshields","optimizedpowercore"],
+            "title":["brighthope"]
           }
         }
       ]

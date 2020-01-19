@@ -5,6 +5,7 @@
       "pilots": [
         {
           "id": "hansolo",
+          "shipfilename": "customized-yt-1300-light-freighter",
           "upgrades": {
             "talent": ["elusive"],
             "crew": ["chewbacca-crew"],
@@ -16,6 +17,7 @@
         },
         {
           "id": "outerrimpioneer",
+          "shipfilename": "escape-craft",
           "upgrades": {
             "crew": ["tobiasbeckett"]
           }
@@ -27,6 +29,7 @@
       "pilots": [
         {
           "id": "landocalrissian",
+          "shipfilename": "customized-yt-1300-light-freighter",
           "upgrades": {
             "gunner": ["hansolo-gunner"],
             "crew": ["qira"],
@@ -34,7 +37,8 @@
           }
         },
         {
-          "id": "l337-escapecraft"
+          "id": "l337-escapecraft",
+          "shipfilename": "escape-craft"
         }
       ]
     },
@@ -43,6 +47,7 @@
       "pilots": [
         {
           "id": "l337",
+          "shipfilename": "customized-yt-1300-light-freighter",
           "upgrades": {
             "talent": ["outmaneuver"],
             "gunner": ["hansolo-gunner"],
@@ -53,6 +58,7 @@
         },
         {
           "id": "landocalrissian-escapecraft",
+          "shipfilename": "escape-craft",
           "upgrades": {
             "talent": ["elusive"],
             "modification": ["shieldupgrade"]
@@ -65,12 +71,14 @@
       "pilots": [
         {
           "id": "freightercaptain",
+          "shipfilename": "customized-yt-1300-light-freighter",
           "upgrades": {
             "title": ["landosmillenniumfalcon"]
           }
         },
         {
           "id": "autopilotdrone",
+          "shipfilename": "escape-craft",
           "upgrades": {
             "modification": ["afterburners"]
           }
@@ -111,6 +119,26 @@
       "pilots": [
         {
           "id": "trandoshanslaver",
+          "shipfilename": "yv-666-light-freighter",
+          "upgrades": {
+            "illicit": ["deadmansswitch"],
+            "title": ["houndstooth"]
+          }
+        },
+        {
+          "id": "nashtahpup",
+          "shipfilename": "z-95-af4-headhunter",
+          "upgrades": {
+            "missile": ["protonrockets"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "trandoshanslaver",
           "upgrades": {
             "crew": ["jabbathehutt"],
             "gunner": ["hotshotgunner"],
@@ -124,6 +152,7 @@
       "pilots": [
         {
           "id": "bossk",
+          "shipfilename": "yv-666-light-freighter",
           "upgrades": {
             "talent": ["marksmanship"],
             "gunner": ["greedo"],
@@ -131,25 +160,8 @@
           }
         },
         {
-          "id": "nashtahpup"
-        }
-      ]
-    },
-    {
-      "threat": 3,
-      "pilots": [
-        {
-          "id": "trandoshanslaver",
-          "upgrades": {
-            "illicit": ["deadmansswitch"],
-            "title": ["houndstooth"]
-          }
-        },
-        {
           "id": "nashtahpup",
-          "upgrades": {
-            "missile": ["protonrockets"]
-          }
+          "shipfilename": "z-95-af4-headhunter"
         }
       ]
     },
@@ -341,7 +353,7 @@
         {
           "id": "asajjventress",
           "upgrades": {
-            "force-power": ["sense"],
+            "force": ["sense"],
             "gunner": ["veteranturretgunner"],
             "illicit": ["inertialdampeners", "deadmansswitch"]
           }
@@ -369,11 +381,7 @@
             "talent": ["outmaneuver"],
             "missile": ["clustermissiles"],
             "illicit": ["inertialdampeners"],
-            "modification": [
-              "afterburners",
-              "electronicbaffle",
-              "shieldupgrade"
-            ]
+            "modification": ["afterburners", "electronicbaffle", "shieldupgrade"]
           }
         }
       ]
@@ -541,6 +549,7 @@
       "pilots": [
         {
           "id": "spicerunner",
+          "shipfilename": "hwk-290-light-freighter",
           "upgrades": {
             "modification": ["electronicbaffle"],
             "illicit": ["deadmansswitch"],
@@ -549,6 +558,7 @@
         },
         {
           "id": "spicerunner",
+          "shipfilename": "hwk-290-light-freighter",
           "upgrades": {
             "modification": ["electronicbaffle"],
             "illicit": ["deadmansswitch"],
@@ -576,6 +586,7 @@
       "pilots": [
         {
           "id": "jakkugunrunner",
+          "shipfilename": "quadrijet-transfer-spacetug",
           "upgrades": {
             "modification": ["electronicbaffle"],
             "crew": ["novicetechnician"],
@@ -584,6 +595,7 @@
         },
         {
           "id": "jakkugunrunner",
+          "shipfilename": "quadrijet-transfer-spacetug",
           "upgrades": {
             "modification": ["electronicbaffle"],
             "crew": ["novicetechnician"],
@@ -698,6 +710,19 @@
       "threat": 2,
       "pilots": [
         {
+          "id": "serissu",
+          "upgrades": {
+            "talent": ["elusive"],
+            "cannon": ["jammingbeam"],
+            "modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
           "id": "genesisred",
           "upgrades": {
             "talent": ["juke"],
@@ -711,10 +736,35 @@
       "threat": 2,
       "pilots": [
         {
+          "id": "genesisred",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "torpedo": ["protontorpedoes"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
           "id": "quinnjast",
           "upgrades": {
             "talent": ["crackshot"],
             "torpedo": ["advprotontorpedoes"],
+            "modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "quinnjast",
+          "upgrades": {
+            "talent": ["elusive"],
+            "torpedo": ["iontorpedoes"],
             "modification": ["afterburners"]
           }
         }
@@ -737,6 +787,19 @@
       "threat": 2,
       "pilots": [
         {
+          "id": "laetinashera",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "cannon": ["ioncannon"],
+            "modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
           "id": "inaldra",
           "upgrades": {
             "cannon": ["ioncannon"],
@@ -746,10 +809,24 @@
       ]
     },
     {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "inaldra",
+          "upgrades": {
+            "talent": ["predator"],
+            "torpedo": ["iontorpedoes"],
+            "modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
       "threat": 3,
       "pilots": [
         {
           "id": "tansariipointveteran",
+          "shipfilename": "m3-a-interceptor",
           "upgrades": {
             "talent": ["crackshot"],
             "cannon": ["heavylasercannon"]
@@ -757,9 +834,23 @@
         },
         {
           "id": "tansariipointveteran",
+          "shipfilename": "m3-a-interceptor",
           "upgrades": {
             "talent": ["crackshot"],
             "cannon": ["heavylasercannon"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "tansariipointveteran",
+          "upgrades": {
+            "talent": ["predator"],
+            "torpedo": ["protontorpedoes"],
+            "modification": ["hullupgrade"]
           }
         }
       ]
@@ -778,10 +869,24 @@
       ]
     },
     {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "sunnybounder",
+          "upgrades": {
+            "talent": ["intimidation"],
+            "torpedo": ["iontorpedoes"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
       "threat": 3,
       "pilots": [
         {
           "id": "cartelspacer",
+          "shipfilename": "m3-a-interceptor",
           "upgrades": {
             "torpedo": ["iontorpedoes"],
             "modification": ["munitionsfailsafe"]
@@ -789,9 +894,23 @@
         },
         {
           "id": "cartelspacer",
+          "shipfilename": "m3-a-interceptor",
           "upgrades": {
             "torpedo": ["iontorpedoes"],
             "modification": ["munitionsfailsafe"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "cartelspacer",
+          "upgrades": {
+            "talent": ["intimidation"],
+            "cannon": ["ioncannon","jammingbeam"],
+            "modification": ["shieldupgrade"]
           }
         }
       ]
@@ -811,6 +930,19 @@
       ]
     },
     {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "teltrevura",
+          "upgrades": {
+            "talent": ["lonewolf"],
+            "torpedo": ["advprotontorpedoes"],
+            "crew": ["000","informant"]
+          }
+        }
+      ]
+    },
+    {
       "threat": 2,
       "pilots": [
         {
@@ -818,6 +950,17 @@
           "upgrades": {
             "torpedo": ["iontorpedoes"],
             "illicit": ["inertialdampeners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "contractedscout",
+          "upgrades": {
+            "crew": ["perceptivecopilot"]
           }
         }
       ]
@@ -832,6 +975,22 @@
             "astromech": ["r4astromech"],
             "torpedo": ["protontorpedoes"],
             "illicit": ["contrabandcybernetics"],
+            "title": ["punishingone"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "dengar",
+          "upgrades": {
+            "talent": ["predator"],
+            "torpedo": ["protontorpedoes"],
+            "astromech": ["r5p8"],
+            "illicit": ["contrabandcybernetics"],
+            "modification": ["hullupgrade","shieldupgrade"],
             "title": ["punishingone"]
           }
         }
@@ -853,13 +1012,16 @@
       ]
     },
     {
-      "threat": 2,
+      "threat": 3,
       "pilots": [
         {
-          "id": "ndrusuhlak",
+          "id": "manaroo",
           "upgrades": {
-            "talent": ["crackshot", "outmaneuver"],
-            "modification": ["hullupgrade", "stealthdevice"]
+            "talent": ["elusive"],
+            "torpedo": ["advprotontorpedoes"],
+            "crew": ["lattsrazzi"],
+            "gunner": ["dengar"],
+            "modification": ["shieldupgrade"]
           }
         }
       ]
@@ -879,10 +1041,23 @@
       ]
     },
     {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "ndrusuhlak",
+          "upgrades": {
+            "talent": ["crackshot", "outmaneuver"],
+            "modification": ["hullupgrade", "stealthdevice"]
+          }
+        }
+      ]
+    },
+    {
       "threat": 3,
       "pilots": [
         {
           "id": "blacksunsoldier",
+          "shipfilename": "z-95-af4-headhunter",
           "upgrades": {
             "talent": ["experthandling"],
             "missile": ["concussionmissiles"],
@@ -892,6 +1067,7 @@
         },
         {
           "id": "blacksunsoldier",
+          "shipfilename": "z-95-af4-headhunter",
           "upgrades": {
             "talent": ["experthandling"],
             "missile": ["concussionmissiles"],
@@ -920,10 +1096,10 @@
         {
           "id": "kaatoleeachos",
           "upgrades": {
-            "talent": ["saturationsalvo"],
-            "missile": ["clustermissiles", "concussionmissiles"],
-            "illicit": ["deadmansswitch"],
-            "modification": ["munitionsfailsafe"]
+            "talent": ["experthandling"],
+            "missile": ["clustermissiles"],
+            "illicit": ["contrabandcybernetics"],
+            "modification": ["afterburners"]
           }
         }
       ]
@@ -934,10 +1110,10 @@
         {
           "id": "kaatoleeachos",
           "upgrades": {
-            "talent": ["experthandling"],
-            "missile": ["clustermissiles"],
-            "illicit": ["contrabandcybernetics"],
-            "modification": ["afterburners"]
+            "talent": ["saturationsalvo"],
+            "missile": ["clustermissiles", "concussionmissiles"],
+            "illicit": ["deadmansswitch"],
+            "modification": ["munitionsfailsafe"]
           }
         }
       ]
@@ -1091,6 +1267,7 @@
       "pilots": [
         {
           "id": "ig88a",
+          "shipfilename": "aggressor-assault-fighter",
           "upgrades": {
             "sensor": ["advancedsensors"],
             "title": ["ig2000"]
@@ -1098,6 +1275,7 @@
         },
         {
           "id": "ig88d",
+          "shipfilename": "aggressor-assault-fighter",
           "upgrades": {
             "sensor": ["advancedsensors"],
             "title": ["ig2000"]
@@ -1110,6 +1288,7 @@
       "pilots": [
         {
           "id": "ig88b",
+          "shipfilename": "aggressor-assault-fighter",
           "upgrades": {
             "sensor": ["firecontrolsystem"],
             "cannon": ["ioncannon"],
@@ -1118,6 +1297,7 @@
         },
         {
           "id": "ig88c",
+          "shipfilename": "aggressor-assault-fighter",
           "upgrades": {
             "sensor": ["firecontrolsystem"],
             "cannon": ["ioncannon"],
@@ -1130,10 +1310,22 @@
       "threat": 2,
       "pilots": [
         {
+          "id": "ahhav",
+          "upgrades": {
+            "talent": ["elusive"],
+            "modification": ["hullupgrade", "afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
           "id": "miningguildsurveyor",
           "upgrades": {
             "talent": ["swarmtactics", "trickshot"],
-            "modification": ["staticdischargevanes", "shieldupgrade"]
+            "modification": ["shieldupgrade", "staticdischargevanes"]
           }
         }
       ]
@@ -1162,21 +1354,9 @@
       "threat": 2,
       "pilots": [
         {
-          "id": "ahhav",
-          "upgrades": {
-            "talent": ["elusive"],
-            "modification": ["afterburners", "hullupgrade"]
-          }
-        }
-      ]
-    },
-    {
-      "threat": 2,
-      "pilots": [
-        {
           "id": "foremanproach",
           "upgrades": {
-            "talent": ["predator", "swarmtactics"],
+            "talent": ["swarmtactics", "predator"],
             "modification": ["hullupgrade"]
           }
         }
@@ -1188,7 +1368,7 @@
         {
           "id": "foremanproach",
           "upgrades": {
-            "talent": ["crackshot", "fearless"]
+            "talent": ["fearless", "crackshot"]
           }
         }
       ]
@@ -1198,6 +1378,24 @@
       "pilots": [
         {
           "id": "miningguildsentry"
+        }
+      ]
+    },
+    {
+      "threat": 5,
+      "pilots": [
+        {
+          "id": "syndicatesmugglers",
+          "upgrades": {
+            "command": ["azmorigan"],
+            "hardpoint": ["pointdefensebattery"],
+            "turret": ["dorsalturret"],
+            "crew": ["novicetechnician"],
+            "team": ["commsteam","igrmdroids"],
+            "cargo": ["adaptiveshields","tibannareserves"],
+            "illicit": ["quickreleaselocks"],
+            "title": ["merchantone"]
+          }
         }
       ]
     }

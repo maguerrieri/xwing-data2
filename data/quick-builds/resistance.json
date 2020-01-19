@@ -234,14 +234,15 @@
       ]
     },
     {
-      "threat": 3,
+      "threat": 4,
       "pilots": [
         {
-          "id": "cobaltsquadronbomber",
+          "id": "finchdallow",
           "upgrades": {
-            "sensor": ["trajectorysimulator"],
-            "modification": ["ablativeplating"],
-            "device": ["protonbombs"]
+            "tech": ["advancedoptics"],
+            "gunner": ["paigetico"],
+            "device": ["protonbombs"],
+            "modification": ["ablativeplating", "hullupgrade"]
           }
         }
       ]
@@ -253,8 +254,21 @@
           "id": "cat",
           "upgrades": {
             "gunner": ["skilledbombardier"],
-            "modification": ["electronicbaffle"],
-            "device": ["connernets"]
+            "device": ["connernets"],
+            "modification": ["electronicbaffle"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "cobaltsquadronbomber",
+          "upgrades": {
+            "sensor": ["trajectorysimulator"],
+            "device": ["protonbombs"],
+            "modification": ["ablativeplating"]
           }
         }
       ]
@@ -266,9 +280,9 @@
           "id": "edonkappehl",
           "upgrades": {
             "tech": ["patternanalyzer"],
-            "gunner": ["skilledbombardier"],
             "crew": ["seasonednavigator"],
-            "device": ["protonbombs", "connernets"]
+            "gunner": ["skilledbombardier"],
+            "device": ["connernets", "protonbombs"]
           }
         }
       ]
@@ -280,8 +294,8 @@
           "id": "vennie",
           "upgrades": {
             "tech": ["advancedoptics"],
-            "gunner": ["finn"],
             "crew": ["rosetico"],
+            "gunner": ["finn"],
             "modification": ["shieldupgrade"]
           }
         }
@@ -293,21 +307,7 @@
         {
           "id": "benteene",
           "upgrades": {
-            "device": ["protonbombs", "connernets"]
-          }
-        }
-      ]
-    },
-    {
-      "threat": 4,
-      "pilots": [
-        {
-          "id": "finchdallow",
-          "upgrades": {
-            "tech": ["advancedoptics"],
-            "gunner": ["paigetico"],
-            "modification": ["hullupgrade", "ablativeplating"],
-            "device": ["protonbombs"]
+            "device": ["connernets", "protonbombs"]
           }
         }
       ]
@@ -344,7 +344,7 @@
         {
           "id": "chewbacca-scavengedyt1300",
           "upgrades": {
-            "gunner": ["rey-gunner"],
+            "gunner": ["rey"],
             "modification": ["engineupgrade"],
             "title": ["reysmillenniumfalcon"]
           }
@@ -357,8 +357,119 @@
         {
           "id": "resistancesympathizer",
           "upgrades": {
-            "crew": ["chewbacca-crew-swz19", "hansolo-crew", "c3po-crew"],
-            "talent": ["debrisgambit"]
+            "talent": ["debrisgambit"],
+            "crew": ["c3po-crew", "chewbacca-crew-swz19", "hansolo-crew"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 1,
+      "pilots": [
+        {
+          "id": "rosetico",
+          "upgrades": {
+            "crew": ["pz4co"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 1,
+      "pilots": [
+        {
+          "id": "finn",
+          "upgrades": {
+            "talent": ["predator"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "bb8",
+          "upgrades": {
+            "cannon": ["autoblasters"],
+            "modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 1,
+      "pilots": [
+        {
+          "id": "vimoradi",
+          "upgrades": {
+            "crew": ["ga97"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "covanell",
+          "upgrades": {
+            "talent": ["composure"],
+            "crew": ["korrsella", "leiaorgana-resistance"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "pammichnerrogoode",
+          "upgrades": {
+            "cannon": ["autoblasters"],
+            "crew": ["kaydelconnix"],
+            "astromech": ["r5x3"],
+            "modification": ["sparepartscanisters"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "nodinchavdri",
+          "upgrades": {
+            "torpedo": ["plasmatorpedoes"],
+            "astromech": ["r2ha"],
+            "modification": ["angleddeflectors"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "logisticsdivisionpilot",
+          "upgrades": {
+            "torpedo": ["protontorpedoes"],
+            "crew": ["amilynholdo", "larmadacy"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "newrepublicvolunteers",
+          "upgrades": {
+            "command": ["stalwartcaptain"],
+            "hardpoint": ["ioncannonbattery"],
+            "turret": ["dorsalturret"],
+            "team": ["sensorexperts"],
+            "cargo": ["boostedscanners","tibannareserves"]
           }
         }
       ]
